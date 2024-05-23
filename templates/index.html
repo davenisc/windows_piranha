@@ -8,12 +8,18 @@
 </head>
 <body>
     <div class="login-container">
-        <h1>Login</h1>
+        <div class="login-avatar">
+            <img src="/static/images/avatar.png" alt="Avatar">
+        </div>
+        <h1>I.T. Admin</h1>
         <form action="/login" method="POST">
-            <input type="text" name="username" placeholder="Username" required>
-            <input type="password" name="password" placeholder="Password" required>
+            <input type="password" name="password" placeholder="PIN" required>
             <button type="submit">Login</button>
         </form>
+        <div class="login-options">
+            <a href="#">I forgot my PIN</a>
+            <a href="#">Sign-in options</a>
+        </div>
     </div>
 </body>
 </html>
